@@ -17,11 +17,19 @@ In this Project, Source Data lands into GCS folder with date paremeter( *_YYYYMM
 
 
 **Source Files:**
+1. https://github.com/ViinayKumaarMamidi/GCP_Airflow_Pyspark_Backfill_Pipeline_Project/blob/main/orders_20250919.csv
+2. https://github.com/ViinayKumaarMamidi/GCP_Airflow_Pyspark_Backfill_Pipeline_Project/blob/main/orders_20250920.csv
 
 **Destination Files:**
+1. https://github.com/ViinayKumaarMamidi/GCP_Airflow_Pyspark_Backfill_Pipeline_Project/blob/main/output_processed_orders_20250919_part-00000-c711e842-3c13-4a0a-b4c0-f880540c42b9-c000.csv
+2. https://github.com/ViinayKumaarMamidi/GCP_Airflow_Pyspark_Backfill_Pipeline_Project/blob/main/output_processed_orders_20250920_part-00000-e921ec43-99af-4ec5-9548-f778bf3b63f7-c000.csv
+
 
 **Airflow Execution Log Files:**
 
+1. Execution_Date: 20250919: https://github.com/ViinayKumaarMamidi/GCP_Airflow_Pyspark_Backfill_Pipeline_Project/blob/main/dag_id%3Dorders_backfilling_dag_run_id%3Dmanual__2025-09-20T15_25_29%2B00_00_task_id%3Dget_execution_date_attempt%3D1.log
+2. Execution_Date: 20250920: https://github.com/ViinayKumaarMamidi/GCP_Airflow_Pyspark_Backfill_Pipeline_Project/blob/main/dag_id%3Dorders_backfilling_dag_run_id%3Dmanual__2025-09-20T15_13_26%2B00_00_task_id%3Ddelete_dataproc_cluster_attempt%3D1.log
+   
 
 **GCS Source Files Details:**
 
